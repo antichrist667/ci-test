@@ -2,9 +2,9 @@ name: Deployment Pipeline
 
 on:
   push:
-    branches: [cris]
+    branches: [main]
   pull_request:
-    branches: [cris]
+    branches: [main]
     types: [opened, synchronize]
 
 jobs:
